@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'abril+fatface', sans-serif;
+
+}
+
+body {
+    background-color: #1fcfcd;
+}
+
+.hero-section {
+    width: 100%;
+    height: 500px;
+    background-image: url(../imgs/header2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section > h1 {
+    font-size: 900;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.hero-section > p {
+   max-width: 600px;
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: .5px;
+}
+footer {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    height: 100px;
+
+
+}
+
+section {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+section > h2 {
+    font-size: 75px;
+    text-decoration: underline;
+    margin: 30px 0;
+}
+
+article {
+    /*border: 1px solid #000;*/
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 5px 5px blue;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+article > img {
+    width: 300px;
+}
+article > img:hover {
+    zoom: 400px;
+    transition: 0.5s;
+    transform: scale(1.5);
+
+}
+
+
+article > div {
+    border: 1px;
+}
+
+.produc_info {
+    max-width:  750px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.icono_ig img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../imgs/log\ ig.png);
+    width: 50px;
+    height: 50px;
+    display: flex;
+
+}
